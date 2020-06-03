@@ -37,6 +37,26 @@ jobs:
       arch: amd64
       compiler: clang
       dist: xenial
+    - name: Ubuntu Trusty, GCC, amd64
+      os: linux
+      arch: arm64
+      compiler: gcc
+      dist: trusty
+    - name: Ubuntu Trusty, Clang, amd64
+      os: linux
+      arch: arm64
+      compiler: clang
+      dist: trusty
+    - name: Ubuntu Xenial, GCC, amd64
+      os: linux
+      arch: arm64
+      compiler: gcc
+      dist: xenial
+    - name: Ubuntu Xenial, Clang, amd64
+      os: linux
+      arch: arm64
+      compiler: clang
+      dist: xenial
     - name: Ubuntu Bionic, GCC, amd64
       os: linux
       arch: amd64
